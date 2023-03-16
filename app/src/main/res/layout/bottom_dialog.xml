@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dg1"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg2"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg3"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg4"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg5"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg6"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg7"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg8"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg9"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg10"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/dg11"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
