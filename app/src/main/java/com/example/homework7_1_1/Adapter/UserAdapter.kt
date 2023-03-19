@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.homework7_1_1.Models.UserItem
 import com.example.homework7_1_1.databinding.ItemUserBinding
+import com.squareup.picasso.Picasso
 
 class UserAdapter(var list: List<UserItem>) : RecyclerView.Adapter<UserAdapter.vh>() {
 
@@ -14,7 +15,9 @@ class UserAdapter(var list: List<UserItem>) : RecyclerView.Adapter<UserAdapter.v
         fun onBind(user: UserItem) {
 
             itemUserBinding.tv1.text = user.login
-            itemUserBinding.tv2.text = user.avatar_url
+
+            Picasso.get().load(user.avatar_url).into(itemUserBinding.imageId)
+
 
         }
 
